@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloud-eureka:war">
+    <output-path>$PROJECT_DIR$/springcloud-eureka/target</output-path>
+    <root id="archive" name="springcloud-eureka.war">
+      <element id="artifact" artifact-name="springcloud-eureka:war exploded" />
+    </root>
+  </artifact>
+</component>
