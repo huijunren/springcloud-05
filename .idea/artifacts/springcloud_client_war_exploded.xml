@@ -116,6 +116,8 @@
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" />
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-config:1.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-config-client:1.1.0.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

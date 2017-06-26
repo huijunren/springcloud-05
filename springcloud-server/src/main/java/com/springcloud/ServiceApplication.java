@@ -1,19 +1,17 @@
 package com.springcloud;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
-
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * Created by huijun.ren on 2017/6/26.
  */
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableFeignClients
-public class RibbonApplication {
+@EnableConfigServer
+public class ServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RibbonApplication.class, args);
+        new SpringApplicationBuilder(ServiceApplication.class).web(true).run(args);
     }
 }

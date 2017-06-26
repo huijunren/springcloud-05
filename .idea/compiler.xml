@@ -23,15 +23,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="springcloud-client" />
-        <module name="springcloud-eureka" />
         <module name="springcloud-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="springcloud" target="1.5" />
-      <module name="springcloud-client" target="1.6" />
+      <module name="springcloud-client" target="1.8" />
       <module name="springcloud-eureka" target="1.6" />
-      <module name="springcloud-server" target="1.6" />
+      <module name="springcloud-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
