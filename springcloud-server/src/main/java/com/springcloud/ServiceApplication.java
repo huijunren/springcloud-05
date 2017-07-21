@@ -8,6 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 /**
  * Created by huijun.ren on 2017/6/26.
  */
+@EnableDiscoveryClient
 @SpringBootApplication
 @EnableConfigServer
 public class ServiceApplication {
